@@ -195,10 +195,10 @@ impl DesignTokens {
 
         // From figma
         let shadow = egui::epaint::Shadow {
-            offset: egui::vec2(0.0, 15.0),
-            blur: 50.0,
+            offset: egui::vec2(0.0, 6.0),
+            blur: 8.0,
             spread: 0.0,
-            color: egui::Color32::from_black_alpha(128),
+            color: egui::Color32::from_black_alpha(32),
         };
         egui_style.visuals.popup_shadow = shadow;
         egui_style.visuals.window_shadow = shadow;
